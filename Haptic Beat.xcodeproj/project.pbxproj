@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB7FAFA71C81069F00007870 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7FAFA61C81069F00007870 /* AppDelegate.m */; };
+		BB7FAFAA1C81069F00007870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7FAFA91C81069F00007870 /* main.m */; };
+		BB7FAFAC1C81069F00007870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB7FAFAB1C81069F00007870 /* Assets.xcassets */; };
+		BB7FAFAF1C81069F00007870 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7FAFAD1C81069F00007870 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB7FAFA21C81069F00007870 /* Haptic Beat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Haptic Beat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7FAFA51C81069F00007870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB7FAFA61C81069F00007870 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB7FAFA91C81069F00007870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB7FAFAB1C81069F00007870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB7FAFAE1C81069F00007870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BB7FAFB01C81069F00007870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB7FAF9F1C81069F00007870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB7FAF991C81069F00007870 = {
+			isa = PBXGroup;
+			children = (
+				BB7FAFA41C81069F00007870 /* Haptic Beat */,
+				BB7FAFA31C81069F00007870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB7FAFA31C81069F00007870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB7FAFA21C81069F00007870 /* Haptic Beat.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB7FAFA41C81069F00007870 /* Haptic Beat */ = {
+			isa = PBXGroup;
+			children = (
+				BB7FAFA51C81069F00007870 /* AppDelegate.h */,
+				BB7FAFA61C81069F00007870 /* AppDelegate.m */,
+				BB7FAFAB1C81069F00007870 /* Assets.xcassets */,
+				BB7FAFAD1C81069F00007870 /* MainMenu.xib */,
+				BB7FAFB01C81069F00007870 /* Info.plist */,
+				BB7FAFA81C81069F00007870 /* Supporting Files */,
+			);
+			path = "Haptic Beat";
+			sourceTree = "<group>";
+		};
+		BB7FAFA81C81069F00007870 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB7FAFA91C81069F00007870 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB7FAFA11C81069F00007870 /* Haptic Beat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB7FAFB31C81069F00007870 /* Build configuration list for PBXNativeTarget "Haptic Beat" */;
+			buildPhases = (
+				BB7FAF9E1C81069F00007870 /* Sources */,
+				BB7FAF9F1C81069F00007870 /* Frameworks */,
+				BB7FAFA01C81069F00007870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Haptic Beat";
+			productName = "Haptic Beat";
+			productReference = BB7FAFA21C81069F00007870 /* Haptic Beat.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB7FAF9A1C81069F00007870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Theodore Dubois";
+				TargetAttributes = {
+					BB7FAFA11C81069F00007870 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BB7FAF9D1C81069F00007870 /* Build configuration list for PBXProject "Haptic Beat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB7FAF991C81069F00007870;
+			productRefGroup = BB7FAFA31C81069F00007870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB7FAFA11C81069F00007870 /* Haptic Beat */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB7FAFA01C81069F00007870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7FAFAC1C81069F00007870 /* Assets.xcassets in Resources */,
+				BB7FAFAF1C81069F00007870 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB7FAF9E1C81069F00007870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB7FAFAA1C81069F00007870 /* main.m in Sources */,
+				BB7FAFA71C81069F00007870 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB7FAFAD1C81069F00007870 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB7FAFAE1C81069F00007870 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB7FAFB11C81069F00007870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BB7FAFB21C81069F00007870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BB7FAFB41C81069F00007870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Haptic Beat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.Haptic-Beat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BB7FAFB51C81069F00007870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Haptic Beat/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tbodt.Haptic-Beat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB7FAF9D1C81069F00007870 /* Build configuration list for PBXProject "Haptic Beat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7FAFB11C81069F00007870 /* Debug */,
+				BB7FAFB21C81069F00007870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB7FAFB31C81069F00007870 /* Build configuration list for PBXNativeTarget "Haptic Beat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB7FAFB41C81069F00007870 /* Debug */,
+				BB7FAFB51C81069F00007870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB7FAF9A1C81069F00007870 /* Project object */;
+}
